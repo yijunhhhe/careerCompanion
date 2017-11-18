@@ -10,10 +10,12 @@
 
 </head>
 <body><br><br><br><br><br>
-        <form method="post" action="login.jsp">
+        <form method="post" class ="form-signin" action="login.jsp">
+        	<div class="container">
+        		<div class="card card-container">
             <center>
             		<center><h3>Login</h3></center>
-		            <table  width="30%" cellpadding="3">      
+		            <table  width="40%" cellpadding="3">      
 		                <thead>
 		                    <tr>
 		                        <th colspan="2"></th>
@@ -41,6 +43,8 @@
 		           
            
             </center>
+            </div><!-- /card-container -->
+    	</div><!-- /container -->
         </form>
     </body>
 </html>

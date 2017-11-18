@@ -8,7 +8,9 @@
 <link href="bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<form method="post" action="registration.jsp">
+	<form method="post" class="form-signin" action="registration.jsp">
+            <div class="container">
+        		<div class="card card-container">
             <center>
             <br><br><br>
             <center><h3>Registration</h3></center>
@@ -22,27 +24,31 @@
                 <tbody>
                     <tr>
                         <td>FirstName</td>
-                        <td><input type="text" name="fname" value="" /></td>
+                        <td><input class="form-control" type="text" name="fname" value="" /></td>
                     </tr>
                     <tr>
                         <td>LastName</td>
-                        <td><input type="text" name="lname" value="" /></td>
+                        <td><input class="form-control" type="text" name="lname" value="" /></td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td><input type="text" name="email" value="" /></td>
+                        <td><input class="form-control" type="text" name="email" value="" /></td>
                     </tr>
+                    
                     <tr>
                         <td>UserName</td>
-                        <td><input type="text" name="uname" value="" /></td>
+                        <td><input class="form-control" type="text" name="uname" value="" /></td>
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td><input type="password" name="pass" value="" /></td>
+                        <td><input class="form-control" type="password" name="pass" value="" /></td>
                     </tr>
                     <tr>
                     	<td>Role</td>
-                    	
+                    	<td>
+	                    	<input type="radio" name="role" value="student">Student
+	                    	<input style="margin-left:20px;" type="radio" name="role" value="mentor">Mentor
+                    	</td>
                     </tr>
                     <tr>
                         <td><br><input class="btn btn-primary" type="submit" value="Submit" /></td>
@@ -54,6 +60,8 @@
                 </tbody>
             </table>
             </center>
+            </div>
+            </div>
         </form>
 </body>
 </html>
