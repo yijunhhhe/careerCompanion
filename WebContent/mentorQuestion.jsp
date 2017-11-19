@@ -5,17 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<link href="style.css" rel="stylesheet" type="text/css">
 <link href="bootstrap.css" rel="stylesheet" type="text/css">
-
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+td {
+ font-size: 20px;
+}
+</style>
 </head>
-<body><br><br><br><br><br>
-        <form method="post" action="submitmark.jsp">
-        <div class="container">
-        		<div class="card card-container">
+<body>
+<form method="post" action="submitMentor.jsp">
+        <div style="margin-top:50px;"class="container">
+        		<div class="card card-container">	
             <center>
-            
-            		<center><h3>Please enter your mark</h3></center>
+            		<center><h3>What subject you have mentored before</h3></center>
 		            <table  width="50%" cellpadding="3">      
 		                <thead>
 		                    <tr>
@@ -24,26 +27,30 @@
 		                </thead>
 		                <tbody>
 		                    <tr>
-		                    <br>
+		                    <br>  
+		                        <td><input type="radio" name="role" value="math"></td>
 		                        <td>math</td>
-		                        <td><input  class="form-control" type="text" name="math" value="" /></td>
 		                    </tr>
 		                    <tr>
+		                        
+		                        <td><input type="radio" name="role" value="socialscience"></td>
 		                        <td>socialscience</td>
-		                        <td><input  class="form-control" type="text" name="socialscience" value="" /></td>
 		                    </tr>
 		                    
 		                    <tr>
-		                        <td>art</td>
-		                        <td><input  class="form-control" type="text" name="art" value="" /></td>
+		                       
+		                        <td><input type="radio" name="role" value="art"></td>
+		                         <td>art</td>
 		                    </tr>    
 		                    <tr>
+		                        
+		                        <td><input type="radio" name="role" value="science"></td>
 		                        <td>science</td>
-		                        <td><input  class="form-control" type="text" name="science" value="" /></td>
 		                    </tr>  
 		                    <tr>
+		                        
+		                        <td><input type="radio" name="role" value="religious"></td>
 		                        <td>religious</td>
-		                        <td><input  class="form-control" type="text" name="religious" value="" /></td>
 		                    </tr>
 		                    
 		                    <tr>
@@ -59,5 +66,5 @@
             </div>
             </div>
         </form>
-    </body>
+</body>
 </html>

@@ -15,7 +15,7 @@
         		<div class="card card-container">
             <center>
             		<center><h3>Login</h3></center>
-		            <table  width="40%" cellpadding="3">      
+		            <table  width="70%" cellpadding="3">      
 		                <thead>
 		                    <tr>
 		                        <th colspan="2"></th>

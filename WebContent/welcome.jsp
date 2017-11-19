@@ -5,9 +5,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-Registration is Successful.
-Please Login Here <a href='index.jsp'>Go to Login</a>
+<br><br><br><br><br><br>
+<br>
+<div  class="container">
+        		<div class="card card-container">
+	Registration is Successful.
+	Please Login Here <a href='index.jsp'>Go to Login</a>
+</div>
+</div>
 </body>
 </html>

@@ -6,16 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<form method="post" class="form-signin" action="registration.jsp">
-            <div class="container">
+            <div style = "margin-top:40px;" class="container">
         		<div class="card card-container">
             <center>
-            <br><br><br>
+          
             <center><h3>Registration</h3></center>
           
-            <table width="30%" cellpadding="5">
+            <table   width="70%" cellpadding="5">
                 <thead>
                     <tr>
                         <br>

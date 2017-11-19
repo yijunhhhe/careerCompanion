@@ -18,6 +18,8 @@
     int i = st.executeUpdate("insert into members(first_name, last_name, email, uname, pass, regdate, role) values ('" + fname + "','" + lname + "','" + email + "','" + user + "','" + pwd + "', CURDATE()" + ",'"+role+"')");
     if(role.equals("student")){
     	response.sendRedirect("mark.jsp");
+    }else if (role.equals("mentor")){
+    	response.sendRedirect("mentorQuestion.jsp");
     }
      else if (i > 0) {
         //session.setAttribute("userid", user);
