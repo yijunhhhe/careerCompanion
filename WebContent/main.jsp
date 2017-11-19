@@ -10,7 +10,9 @@
 <title>Do you know what you want to be in the future?</title>
 <meta charset = "UTF-8" />
 <h1 align = 'center'> Do you know what you want to be in the future?</h1>
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
 </head>
+
 <style>
 /* Style The Dropdown Button */
 .dropbtn {
@@ -162,9 +164,10 @@ dev.menuwrap{
 <td class="d3">
 	<p><strong><font size = "12">No</font></strong></p>
 	<p>Please write a short biography of yourself.</p>
-	<form id="form1" name="form1" method="post" action="acceptpage.php">
-  		<textarea name="text" id="textarea" cols="45" rows="5"></textarea>
-  		<p><button type="button" id="click">CLick</button></p>
+	<form id="form1" name="form1" method="post" action="career.jsp">
+  		<textarea name="text" id="textarea" cols="45" rows="5" required></textarea>
+  		<p><input class="btn btn-primary" type="submit" >  </p>
+  		
   	</form>
 </td>
 
